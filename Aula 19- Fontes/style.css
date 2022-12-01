@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+ body {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: lighter;
+    /* Espessura */
+    font-style: oblique;
+    /* Estilo */
+
+    
+}
+
+h1 {
+    font: italic bolder 3em 'Ariel';
+    /* Shorthand font */
+    /* 
+    Font-style
+    Font-weight
+    Font-size
+    Font-Family */
+}

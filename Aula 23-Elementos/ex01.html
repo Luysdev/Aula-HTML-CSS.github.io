@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a {
+            color: rgb(200, 227, 146);
+            text-decoration: none; 
+            /*Tira o sumblinhado  */
+            font-weight: bold;
+        }
+        a:link {
+            color: tomato;
+        }
+
+        a:visited {
+            color: rgb(43, 43, 38);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+            /* sublinhado */
+        }
+        a:active {
+            color: yellow;
+        }
+
+        .especial::after {
+            content: '[link]';
+            color: rgb(111, 145, 175);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://coolors.co/231123-bfb59e-cab7a2-db5461-574ae2" target="_blank">Editor 1</a></li>
+        <li><a href="https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF" target="_blank" class="especial">Editor 2</a></li>
+        <li><a href="https://color.adobe.com/pt/create/color-wheel" target="_blank">Editor 3</a></li>
+    </ul>
+    
+</body>
+</html>

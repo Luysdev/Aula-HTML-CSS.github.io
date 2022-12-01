@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Models</title>
+    <style>
+        h1{
+            /* Transformar em inline */
+            /* display: inline;  */
+
+
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(83, 255, 255);
+
+            border: 10px solid darkblue;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            /* Configuraçao de posiçãp  */
+
+            padding: 10px 10px 10px 10px;
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            margin: 10px 20px;
+
+            /* Não usar pra centralizar */
+
+            /* Deixar a caixa no meio */
+            outline-width: 1px;
+            /* Calculado através da margem */
+            outline-style: dashed;
+            outline-color:black ;
+
+            outline: 1px dashed black;
+
+        }
+
+        h1:hover{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box level</h1>
+    <p>Tbm são box levels</p>
+    <p><a href="#">links</a> são exemplos de inline-level</p>
+</body>
+</html>

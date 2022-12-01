@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+h1{
+    background-color: #AFA98D;
+    height: 300px;
+    width: 300px;
+    border: 10px solid #a9b2b7;
+    padding: 10px 20px;
+    margin: 10px auto;
+}
+
+#second{
+    /* h2 */
+
+    background-color: #6d8ea0;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6d6d6d;
+}
+
+header{
+
+
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+main {
+    background-color: #686c6f;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+    padding: 1px;
+    margin: auto;
+}
+
+nav {
+    
+}

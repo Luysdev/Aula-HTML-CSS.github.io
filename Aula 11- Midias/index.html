@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <hr>
+    <p>Abrir em diferentes navegadores</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1000px )" srcset="Imagens/m.png" type="image/png">
+        <img src="Imagens/Sem título.png" alt="Imagem Flex  ivel">
+        <!-- Ordem de tamanho crescente -->
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <audio src="Midia/som de teclado mecânico.mp3"controls autoplay></audio>
+    <!-- Em alguns casos causa limitações -->
+    <audio preload="metadata">
+        <source src="Midia/som de teclado mecânico.mp3" type="audio/mpeg">
+        <!-- Configuravel -->
+    </audio>
+    <video>
+        
+    </video>
+</body>
+</html>
