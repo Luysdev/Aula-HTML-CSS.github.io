@@ -15,6 +15,7 @@ body {
     background-size: cover;
     /* Ocupar o maximo que der da tela */
     background-repeat: no-repeat;
+    
 }
 
 textarea:focus, input:focus {
@@ -89,7 +90,7 @@ input[type="submit"] {
     background-color: #1a05ff;
     cursor: pointer;
     /* Mostra o cursor diferente ao selecionar */
-    box-shadow: 1px 2px 7px  rgba(0, 0, 0, 0.548);
+    box-shadow: 1px 2px 7px  rgba(0, 0, 0, 0.548);  
 }
 
 input[type="submit"]:hover {
@@ -106,7 +107,7 @@ input[type="submit"]:hover {
     
 }
 
-#social-container i {
+#social-container i {   
     height: 40px;
     width: 40px;
     background-color: #1a05ff;
