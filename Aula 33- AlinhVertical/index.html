@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            position: relative;
+              /* Container vai ter uma posição relatica */
+            height: 96vh;
+            background-color: purple;
+            padding: 10px;
+          
+        }
+        #conteudo{
+            position: absolute;
+            /* Posição absolute, configura left e top */
+            height: 200px;
+            background-color: yellow;
+            width: 400px;
+            /* Horizontal- margin auto - conteudo */
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) ;
+            /* mexer em qualquer caixa alterando qualquer coisa */
+            /* translate- mexe */
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <!-- Presença de um container e um conteudo -->
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
